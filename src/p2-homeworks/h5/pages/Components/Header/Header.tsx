@@ -8,9 +8,9 @@ function Header() {
         <div  className={style.buttonmenu}>menu
             <div className={style.menu}>
 
-                <NavLink to={"/prejunior"} className={style.prejun}>Preunior</NavLink>
+                <NavLink to={"/pre-junior"} className={style.prejun}>Preunior</NavLink>
                 <NavLink to={"/junior"} className={style.jun}>Junior</NavLink>
-                <NavLink to={""} className={style.junplus}>Junior+</NavLink>
+                <NavLink to={"/"} className={style.junplus}>Junior+</NavLink>
 
 
             </div>
