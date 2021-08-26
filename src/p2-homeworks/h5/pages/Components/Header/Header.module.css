@@ -1,0 +1,84 @@
+
+.menu{
+
+    margin-left: -650px;
+    width: 600px;
+
+
+    grid-row-gap: 5px;
+    grid-column-gap:5px;
+    grid:50px/200px 200px 200px;
+    opacity: 1;
+    display:grid;
+    transition-duration: 1.5s;
+    transition-property: margin-left, opacity;
+    transition-delay: 200ms, 1.5s;
+    margin-top: -40px;
+
+
+
+
+}
+
+.buttonmenu:hover{
+    color: white;
+    background-color: white;
+    border: 1px solid white;
+    transition: 0s;
+
+
+}
+.buttonmenu{
+    margin-top: 50px;
+    font-family: Robo;
+    font-size: 25px;
+    border: 1px solid black;
+    width: 60px;
+    height: 30px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    text-align: center;
+    transition-delay: 1.5s;
+
+
+
+
+}
+
+
+.buttonmenu:hover>.menu{
+    display:grid;
+    transition: opacity 0.5s, margin-left 2s;
+    margin-top: -40px;
+    margin-left: 0px;
+    opacity: 1;
+
+
+
+}
+.menu>*{
+    display: grid;
+    justify-items: center;
+    align-content:center;
+    text-decoration: none;
+    font-family: Robo;
+    font-size: 25px;
+    border-radius: 5px;
+
+}
+
+
+.prejun{
+
+    background-color: cornsilk;
+
+}
+.jun{
+
+    background-color: yellow;
+}
+
+.junplus{
+
+    background-color: green;
+}
