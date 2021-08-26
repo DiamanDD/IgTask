@@ -17,7 +17,7 @@ function Routes() {
 
             {/*в начале мы попадаем на страницу '/' и переходим сразу на страницу PRE_JUNIOR*/}
             {/*exact нужен чтоб указать полное совподение (что после '/' ничего не будет)*/}
-            {/*<Route path={'/'} exact render={() => <Redirect to={PATH.PRE_JUNIOR}/>}/>*/}
+            <Route path={'/'} exact render={() => <Redirect to={PATH.PRE_JUNIOR}/>}/>
 
             <Route path={"/prejunior"} render={() => <PreJunior/>}/>
                 <Route path={"/junior"} render={() => <Junior/>}/>
